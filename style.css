@@ -1,0 +1,47 @@
+.durations
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons
+{
+    text-align: center;
+    color: blue;
+    
+}
+.icons .fa-backward-step
+{
+    margin-right: 10px;
+}
+.icons .fa-forward-step
+{
+    margin-left: 10px;
+}
+
+.volume
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.volume input
+{
+    margin-left: 5px;
+}
+
+.card
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+}
+
+body
+{
+    background: url("img/bg.jpg");
+    background-position: center;
+    background-size: auto;
+}
